@@ -20,10 +20,10 @@ const HowItWorks = () => {
     });
 
     animateWithGsap(".g_fadeIn", {
-      opacity: 1,
       y: 0,
-      duration: 1,
+      opacity: 1,
       ease: "power2.inOut",
+      duration: 1,
     });
   }, []);
 
